@@ -13,8 +13,8 @@ let aguas = 40;
 
 
 function preload() {
-    sheepImg = loadImage('images/ovelha.png');
-    wolfImg = loadImage('images/lobo.png');
+    sheepImg = loadImage('../Projeto_final/ovelha.png');
+    wolfImg = loadImage('../Projeto_final/lobo.png');
 }
 
 function setup() {
