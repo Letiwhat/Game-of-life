@@ -11,6 +11,7 @@ let sheepImg, wolfImg;
 let aguas = 40;
 
 
+
 function preload() {
     sheepImg = loadImage('images/ovelha.png');
     wolfImg = loadImage('images/lobo.png');
