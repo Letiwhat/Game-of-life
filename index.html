@@ -1,16 +1,56 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
-	<meta charset="utf8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        canvas {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            canvas {
+                width: 90%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
-	<script type="text/javascript" src="Projeto_final/classes.js"></script>
-	<script type="text/javascript" src="Projeto_final/herb.js"></script>
-	<script type="text/javascript" src="Projeto_final/rio.js"></script>
-	<script type="text/javascript" src="Projeto_final/functions.js"></script>
-	<script type="text/javascript" src="Projeto_final/lobo.js"></script>
-	<script type="text/javascript" src="Projeto_final/script.js"></script>
+    <header>
+        <h1>Game of Life</h1>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script type="text/javascript" src="Projeto_final/classes.js"></script>
+    <script type="text/javascript" src="Projeto_final/herb.js"></script>
+    <script type="text/javascript" src="Projeto_final/rio.js"></script>
+    <script type="text/javascript" src="Projeto_final/functions.js"></script>
+    <script type="text/javascript" src="Projeto_final/lobo.js"></script>
+    <script type="text/javascript" src="Projeto_final/script.js"></script>
+    <footer>
+        <p>&copy; 2023 Game of Life</p>
+    </footer>
 </body>
 </html>
