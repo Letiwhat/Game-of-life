@@ -13,8 +13,8 @@ let aguas = 40;
 
 
 function preload() {
-    sheepImg = loadImage('../Projeto_final/ovelha.png');
-    wolfImg = loadImage('../Projeto_final/lobo.png');
+    sheepImg = loadImage('https://letiwhat.github.io/Game-of-life.github.io/Projeto_final/ovelha.png');
+    wolfImg = loadImage('https://letiwhat.github.io/Game-of-life.github.io/Projeto_final/lobo.png');
 }
 
 function setup() {
